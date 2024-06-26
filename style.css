@@ -1,0 +1,132 @@
+/* Styling for the main title */
+h1 {
+    color: orangered;
+    margin-bottom: -5px;
+}
+
+/* Styling for paragraph elements */
+p {
+    margin-bottom: -10px;
+}
+
+/* Styling for the main container of the game board */
+.ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for each row within the game board */
+.row {
+    display: flex;
+}
+
+/* Styling for each cell in the game board */
+.cell {
+    border: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Remove outline on cell when it is active (clicked) */
+.cell:active {
+    outline: none;
+}
+
+/* Styling for each individual cell to create the 3x3 grid */
+
+/* Top-left cell */
+#b1 {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+/* Top-middle cell */
+#b2 {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/* Top-right cell */
+#b3 {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/* Middle-left cell */
+#b4 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+/* Center cell */
+#b5 {
+    border: 1px solid gray;
+}
+
+/* Middle-right cell */
+#b6 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/* Bottom-left cell */
+#b7 {
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+/* Bottom-middle cell */
+#b8 {
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/* Bottom-right cell */
+#b9 {
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/* Styling for the reset button */
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin-left: auto;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: dodgerblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Styling for the game message display */
+#print {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/* Styling for the main container */
+#main {
+    text-align: center;
+}
+
+/* Styling for the game instructions */
+#ins {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+}
